@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main-form">
+        <header>
+            <h2>International Student Application Form</h2>
+            <hr>
+        </header>
+        <form action="/action_page.php">
+            <input type="text" placeholder="Firstname" required>
+            <input type="text" placeholder="Lastname" required>
+            <br>
+            <label for="birthday">Date Of Birth</label>
+            <br>
+            <input type="date" required>
+            <br>
+            <label for="age">Age:</label>
+            <br>
+            <input type="number" placeholder="Ex:20" required>
+            <br>
+            <label for="sex">Gender</label>
+            <br>
+            <input type="radio" id="sex" name="gender"required >Male
+            <input type="radio" id="sex" name="gender" required>Female
+            <br>
+            <label for="nationaity">Nationality</label>
+            <br>
+            <input type="text" required>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" required>
+             <br>
+            <label for="phonenumber">Phone Number</label>
+            <br>
+            <input type="tel" required>
+            <br>
+            <label for="transcript">Upload Transcript Here</label>
+            <br>
+            <input type="file" required>
+            <br>
+            <label for="info">How did you hear about us?</label>
+            <br>
+            <input type="checkbox" id="info" name="info" value="Agent">Education Agent
+            <br>
+            <input type="checkbox" id="info" name="info" value="Mouth">Word of Mouth
+            <br>
+            <input type="checkbox" id="info" name="info" value="Posters">Billboards
+            <br>
+            <input type="checkbox" id="info" name="info" value="SearchEngine">Google or Search SearchEngine
+            <br>
+            <input type="checkbox" id="info" name="info" value="Other">Other
+            <br>
+            <label for="reset">Clear your details and start again? Click here</label>
+            <input type="reset" class="button">
+            <br>
+            <label for="submit">Submit Form</label>
+            <input type="submit" class="button">
+            <br>
+            
+
+        </form>
+    </div>
+
+</body>
+</html>
